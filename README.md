@@ -20,6 +20,15 @@ use_frameworks!
 pod 'ArrowRadiusView' :git => 'https://github.com/zengxianshu/ArrowRadiusView.git'
 ```
 ![](Example.png)
+```ruby
+self.topArrowRadiusView.arrowDirection = .top
+self.topArrowRadiusView.arrowOffset = CGPoint.init(x: 10, y: 0)
+self.topArrowRadiusView.arrowSize = CGSize.init(width: 10, height: 8)
+self.topArrowRadiusView.backGroundgColor = .lightGray
+self.topArrowRadiusView.boderWidth = 1.0
+self.topArrowRadiusView.borderColor = .black
+self.topArrowRadiusView.cornerRadius = 3.0
+```
 
 ## Author
 

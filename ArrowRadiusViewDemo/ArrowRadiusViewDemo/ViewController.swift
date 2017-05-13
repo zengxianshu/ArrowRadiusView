@@ -21,6 +21,11 @@ class ViewController: UIViewController {
 
     self.topArrowRadiusView.arrowDirection = .top
     self.topArrowRadiusView.arrowOffset = CGPoint.init(x: 10, y: 0)
+    self.topArrowRadiusView.arrowSize = CGSize.init(width: 10, height: 8)
+    self.topArrowRadiusView.backGroundgColor = .lightGray
+    self.topArrowRadiusView.boderWidth = 1.0
+    self.topArrowRadiusView.borderColor = .black
+    self.topArrowRadiusView.cornerRadius = 3.0
 
     self.leftArrowRadiusView.arrowDirection = .left
     self.leftArrowRadiusView.arrowOffset = CGPoint.init(x: 0, y: 10)
