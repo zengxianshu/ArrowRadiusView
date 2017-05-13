@@ -20,7 +20,7 @@ use_frameworks!
 pod 'ArrowRadiusView' :git => 'https://github.com/zengxianshu/ArrowRadiusView.git'
 ```
 ![](Example.png)
-```ruby
+```swift
 self.topArrowRadiusView.arrowDirection = .top
 self.topArrowRadiusView.arrowOffset = CGPoint.init(x: 10, y: 0)
 self.topArrowRadiusView.arrowSize = CGSize.init(width: 10, height: 8)
